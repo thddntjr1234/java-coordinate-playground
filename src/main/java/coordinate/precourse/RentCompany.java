@@ -1,4 +1,4 @@
-package coordinate;
+package coordinate.precourse;
 
 import java.util.ArrayList;
 import java.util.List;

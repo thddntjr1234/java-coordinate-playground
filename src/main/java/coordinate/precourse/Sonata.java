@@ -1,6 +1,6 @@
-package coordinate;
+package coordinate.precourse;
 
-public class Sonata extends Car {
+public class Sonata implements Car {
   private int tripDistance;
 
   public Sonata(int travelDistance) {
@@ -8,17 +8,17 @@ public class Sonata extends Car {
   }
 
   @Override
-  double getDistancePerLiter() {
+  public double getDistancePerLiter() {
     return 10;
   }
 
   @Override
-  double getTripDistance() {
+  public double getTripDistance() {
     return this.tripDistance;
   }
 
   @Override
-  String getName() {
+  public String getName() {
     return "Sonata";
   }
 }

@@ -1,6 +1,6 @@
-package coordinate;
+package coordinate.precourse;
 
-public class K5 extends Car {
+public class K5 implements Car {
   private int tripDistance;
 
   public K5(int travelDistance) {
@@ -8,17 +8,17 @@ public class K5 extends Car {
   }
 
   @Override
-  double getDistancePerLiter() {
+  public double getDistancePerLiter() {
     return 13;
   }
 
   @Override
-  double getTripDistance() {
+  public double getTripDistance() {
     return this.tripDistance;
   }
 
   @Override
-  String getName() {
+  public String getName() {
     return "K5";
   }
 }

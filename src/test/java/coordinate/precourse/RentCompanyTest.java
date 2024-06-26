@@ -1,4 +1,4 @@
-package coordinate;
+package coordinate.precourse;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
